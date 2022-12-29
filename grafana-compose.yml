@@ -1,0 +1,8 @@
+grafana:
+    image: grafana/grafana:latest
+    ports:
+      - 3000:3000
+    
+    volumes:
+      - /mnt/c/users/suraj.kalloli/grafana/keycloak.ini:/etc/grafana/grafana.ini
+      
